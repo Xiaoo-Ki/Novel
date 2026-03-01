@@ -1,21 +1,16 @@
 {
-  "timestamp": "2026-02-22T04:10:48.328150",
-  "total": 389,
-  "valid": 378,
-  "invalid": 11,
+  "timestamp": "2026-03-01T04:16:17.818798",
+  "total": 378,
+  "valid": 372,
+  "invalid": 6,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://m.ypxxs.com#🎃": "HTTP 401",
-    "https://www.win10city.com#🎃": "HTTP 503",
-    "http://www.521danmei.org#🎃": "HTTP 512",
-    "http://3g.sbkk8.com#": "HTTP 444",
-    "https://m.dukangge.com#🎃": "HTTP 401",
-    "https://www.bimoks.com#🎃": "HTTP 401",
-    "http://m.xiaoshubao.net#": "Server disconnected",
-    "https://m.woo16.vip": "超时",
-    "https://m.luhubook.com/": "HTTP 401",
-    "http://book.sbkk8.com#🎃": "HTTP 444",
-    "https://www.haitang77.com": "超时"
+    "http://www.18ys.net#🎃": "HTTP 404",
+    "http://www.trxs.org/##@": "Cannot connect to host trxs.cc:443 ssl:default [Te",
+    "https://trxs.cc": "Cannot connect to host trxs.cc:443 ssl:default [Te",
+    "https://www.biquge55.net/#♤pb": "HTTP 405",
+    "https://www.szyangxiao.com#鸡排饭": "超时",
+    "http://www.trxs.cc/": "Cannot connect to host www.trxs.cc:80 ssl:default "
   }
 }
