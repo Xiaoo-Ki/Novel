@@ -1,16 +1,21 @@
 {
-  "timestamp": "2026-03-01T04:16:17.818798",
-  "total": 378,
-  "valid": 372,
-  "invalid": 6,
+  "timestamp": "2026-03-08T04:05:26.013001",
+  "total": 372,
+  "valid": 361,
+  "invalid": 11,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "http://www.18ys.net#🎃": "HTTP 404",
-    "http://www.trxs.org/##@": "Cannot connect to host trxs.cc:443 ssl:default [Te",
-    "https://trxs.cc": "Cannot connect to host trxs.cc:443 ssl:default [Te",
-    "https://www.biquge55.net/#♤pb": "HTTP 405",
-    "https://www.szyangxiao.com#鸡排饭": "超时",
-    "http://www.trxs.cc/": "Cannot connect to host www.trxs.cc:80 ssl:default "
+    "https://www.kunnu.com/": "HTTP 403",
+    "http://www.luoxia.com": "HTTP 403",
+    "http://www.yueleshow.com#🎃": "Cannot connect to host www.yueleshow.com:80 ssl:de",
+    "https://jpxs123.cc": "HTTP 403",
+    "http://www.shouda8.net/": "HTTP 404",
+    "https://www.zjsw.org": "HTTP 502",
+    "https://www.rourouwu1.com/": "HTTP 500",
+    "http://m.zjlskls.com/": "超时",
+    "http://www.vbiquge.org/": "超时",
+    "http://www.jpxs123.cc/": "HTTP 403",
+    "https://m.xxsy.net": "超时"
   }
 }
