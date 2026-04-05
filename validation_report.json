@@ -1,20 +1,23 @@
 {
-  "timestamp": "2026-03-29T04:32:43.080728",
-  "total": 343,
-  "valid": 333,
-  "invalid": 10,
+  "timestamp": "2026-04-05T04:32:37.124841",
+  "total": 333,
+  "valid": 320,
+  "invalid": 13,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://czy.yzfnb6.help/cn/home/web/": "Server disconnected",
-    "https://58rom.org#🎃": "超时",
-    "http://www.txt86w.com#🎃": "超时",
-    "http://www.uuxsw8.net": "超时",
-    "http://www.uu234.net": "超时",
-    "https://www.tadu.com#🎃": "HTTP 403",
-    "https://www.xshuyaya.com": "超时",
-    "https://www.ruochenwenxue.com#🎃": "超时",
-    "http://www.shuyy8.cc": "超时",
-    "https://m.guigushi2.com/": "超时"
+    "http://www.bgwxc.com#": "Cannot connect to host www.bgwxc.com:80 ssl:defaul",
+    "http://m.bgwxc.com/M/novel/search?keyword=我是": "Cannot connect to host m.bgwxc.com:80 ssl:default ",
+    "http://www.fqxsw.net": "超时",
+    "http://www.ttwx.net": "超时",
+    "https://www.rouwenwu12.com/": "超时",
+    "https://www.po5.net": "HTTP 403",
+    "https://www.52pojie.cn": "超时",
+    "https://www.bsxiaoshuo.com": "超时",
+    "https://www.gxhj.com/": "超时",
+    "http://www.biquge001.com/      ": "超时",
+    "http://www.tmxs.net": "超时",
+    "http://www.paper027.com/": "超时",
+    "http://www.bjcan8.com": "超时"
   }
 }
