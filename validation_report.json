@@ -1,23 +1,12 @@
 {
-  "timestamp": "2026-04-05T04:32:37.124841",
-  "total": 333,
-  "valid": 320,
-  "invalid": 13,
+  "timestamp": "2026-04-12T04:42:48.512587",
+  "total": 320,
+  "valid": 318,
+  "invalid": 2,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "http://www.bgwxc.com#": "Cannot connect to host www.bgwxc.com:80 ssl:defaul",
-    "http://m.bgwxc.com/M/novel/search?keyword=我是": "Cannot connect to host m.bgwxc.com:80 ssl:default ",
-    "http://www.fqxsw.net": "超时",
-    "http://www.ttwx.net": "超时",
-    "https://www.rouwenwu12.com/": "超时",
-    "https://www.po5.net": "HTTP 403",
-    "https://www.52pojie.cn": "超时",
-    "https://www.bsxiaoshuo.com": "超时",
-    "https://www.gxhj.com/": "超时",
-    "http://www.biquge001.com/      ": "超时",
-    "http://www.tmxs.net": "超时",
-    "http://www.paper027.com/": "超时",
-    "http://www.bjcan8.com": "超时"
+    "https://m.yuwangshe.one/": "超时",
+    "https://www.wxdzs.net": "超时"
   }
 }
