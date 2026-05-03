@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-04-26T04:54:49.780012",
-  "total": 312,
-  "valid": 311,
+  "timestamp": "2026-05-03T05:25:02.598437",
+  "total": 311,
+  "valid": 310,
   "invalid": 1,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://www.shuq.net/": "HTTP 403"
+    "https://www.dxmwx.org": "0, message='', url='https://www.dxmwx.org'"
   }
 }
