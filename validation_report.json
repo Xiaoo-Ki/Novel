@@ -1,15 +1,17 @@
 {
-  "timestamp": "2026-05-10T05:32:03.675224",
-  "total": 310,
-  "valid": 305,
-  "invalid": 5,
+  "timestamp": "2026-05-17T05:43:13.853533",
+  "total": 305,
+  "valid": 298,
+  "invalid": 7,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "http://zhuishushenqi.com/": "Cannot connect to host zhuishushenqi.com:80 ssl:de",
-    "https://m.zongheng.com/": "HTTP 500",
-    "https://www.tianyabook.com#": "超时",
-    "https://www.nanyou15.com": "超时",
-    "https://m.woo15.com#🎃": "超时"
+    "https://api.yousuu.com/": "Cannot connect to host api.yousuu.com:443 ssl:defa",
+    "https://www.jcdf99.com/": "Server disconnected",
+    "http://new.zxcs.info": "Cannot connect to host new.zxcs.info:80 ssl:defaul",
+    "http://member.iqinshu.cn": "超时",
+    "https://m.duduaa.com#🎃": "超时",
+    "https://www.shoujix.com": "超时",
+    "https://m.eyushuwu.vip/": "超时"
   }
 }
