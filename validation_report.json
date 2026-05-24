@@ -1,17 +1,16 @@
 {
-  "timestamp": "2026-05-17T05:43:13.853533",
-  "total": 305,
-  "valid": 298,
-  "invalid": 7,
+  "timestamp": "2026-05-24T05:55:51.759019",
+  "total": 298,
+  "valid": 292,
+  "invalid": 6,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://api.yousuu.com/": "Cannot connect to host api.yousuu.com:443 ssl:defa",
-    "https://www.jcdf99.com/": "Server disconnected",
-    "http://new.zxcs.info": "Cannot connect to host new.zxcs.info:80 ssl:defaul",
-    "http://member.iqinshu.cn": "超时",
-    "https://m.duduaa.com#🎃": "超时",
-    "https://www.shoujix.com": "超时",
-    "https://m.eyushuwu.vip/": "超时"
+    "https://m.gushici.net": "HTTP 403",
+    "http://www.iyoule.com": "HTTP 502",
+    "https://m.shoujix.com/": "超时",
+    "https://www.18mh.net": "超时",
+    "https://www.xs99.org#🎃": "超时",
+    "https://book.tiexue.net": "超时"
   }
 }
