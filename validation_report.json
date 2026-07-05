@@ -1,12 +1,9 @@
 {
-  "timestamp": "2026-06-28T06:10:50.678666",
-  "total": 238,
+  "timestamp": "2026-07-05T05:57:39.085049",
+  "total": 236,
   "valid": 236,
-  "invalid": 2,
+  "invalid": 0,
   "sample": null,
   "timeout": 10,
-  "errors": {
-    "https://m.dayuzc.com": "Server disconnected",
-    "https://m.bqg.fun#🎃": "超时"
-  }
+  "errors": {}
 }
