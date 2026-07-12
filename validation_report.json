@@ -1,9 +1,14 @@
 {
-  "timestamp": "2026-07-05T05:57:39.085049",
+  "timestamp": "2026-07-12T05:20:51.802757",
   "total": 236,
-  "valid": 236,
-  "invalid": 0,
+  "valid": 232,
+  "invalid": 4,
   "sample": null,
   "timeout": 10,
-  "errors": {}
+  "errors": {
+    "https://www.xsbook.top#🎃": "Server disconnected",
+    "https://www.dongnanshu.com": "超时",
+    "https://www.danmeic.com": "超时",
+    "https://www.ghost580.com": "超时"
+  }
 }
