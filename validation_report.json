@@ -1,14 +1,13 @@
 {
-  "timestamp": "2026-07-12T05:20:51.802757",
-  "total": 236,
-  "valid": 232,
-  "invalid": 4,
+  "timestamp": "2026-07-19T05:15:51.268126",
+  "total": 232,
+  "valid": 229,
+  "invalid": 3,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://www.xsbook.top#🎃": "Server disconnected",
-    "https://www.dongnanshu.com": "超时",
-    "https://www.danmeic.com": "超时",
-    "https://www.ghost580.com": "超时"
+    "http://www.fxsw.top#🎃": "Cannot connect to host www.fxsw.top:80 ssl:default",
+    "https://xiyou.lfunv.com#♤yuan": "超时",
+    "https://m.rouzhaiwu.info#🎃": "超时"
   }
 }
