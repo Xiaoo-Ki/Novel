@@ -1,13 +1,18 @@
 {
-  "timestamp": "2026-07-19T05:15:51.268126",
-  "total": 232,
-  "valid": 229,
-  "invalid": 3,
+  "timestamp": "2026-07-26T05:24:50.382869",
+  "total": 229,
+  "valid": 221,
+  "invalid": 8,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "http://www.fxsw.top#🎃": "Cannot connect to host www.fxsw.top:80 ssl:default",
-    "https://xiyou.lfunv.com#♤yuan": "超时",
-    "https://m.rouzhaiwu.info#🎃": "超时"
+    "https://m.92yanqing.net": "Cannot connect to host m.92yanqing.net:443 ssl:def",
+    "https://n.cmread.com/r/p/zonghesywap.jsp": "Cannot connect to host n.cmread.com:443 ssl:defaul",
+    "https://www.22biqu.com/": "Cannot connect to host www.22biqu.com:443 ssl:defa",
+    "https://www.74txts.com#🎃": "Cannot connect to host www.74txts.com:443 ssl:defa",
+    "http://www.bookfedex.com/": "Cannot connect to host www.bookfedex.com:80 ssl:de",
+    "https://www.69hsz.com": "Cannot connect to host www.69hsz.com:443 ssl:defau",
+    "https://m.ruochenwenxue.com/": "超时",
+    "https://www.longtengxiaoshuo.org": "超时"
   }
 }
