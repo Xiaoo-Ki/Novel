@@ -1,18 +1,14 @@
 {
-  "timestamp": "2026-07-26T05:24:50.382869",
-  "total": 229,
-  "valid": 221,
-  "invalid": 8,
+  "timestamp": "2026-08-02T05:20:32.700504",
+  "total": 221,
+  "valid": 217,
+  "invalid": 4,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://m.92yanqing.net": "Cannot connect to host m.92yanqing.net:443 ssl:def",
-    "https://n.cmread.com/r/p/zonghesywap.jsp": "Cannot connect to host n.cmread.com:443 ssl:defaul",
-    "https://www.22biqu.com/": "Cannot connect to host www.22biqu.com:443 ssl:defa",
-    "https://www.74txts.com#🎃": "Cannot connect to host www.74txts.com:443 ssl:defa",
-    "http://www.bookfedex.com/": "Cannot connect to host www.bookfedex.com:80 ssl:de",
-    "https://www.69hsz.com": "Cannot connect to host www.69hsz.com:443 ssl:defau",
-    "https://m.ruochenwenxue.com/": "超时",
-    "https://www.longtengxiaoshuo.org": "超时"
+    "http://www.shengxuxu.net": "400, message=\"Data after `Connection: close`:\\n\\n ",
+    "https://www.taosexs.com": "超时",
+    "http://m.111bz.cc#🎃": "超时",
+    "http://www.uu.net": "超时"
   }
 }
