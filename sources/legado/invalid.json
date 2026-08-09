@@ -1,274 +1,144 @@
 [
   {
-    "bookSourceComment": "搜索间隔5秒",
-    "bookSourceGroup": "标准",
-    "bookSourceName": "圣墟小说网",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.shengxuxu.net",
-    "bookUrlPattern": "http.*shengxuxu.net/book_\\d+/",
-    "customOrder": 569,
-    "enabled": true,
-    "enabledCookieJar": true,
-    "enabledExplore": true,
-    "exploreUrl": "[\n{\n    \"title\": \"榜单\",\n    \"url\": \"\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n  {\n    \"title\": \"总点击榜\",\n    \"url\": \"/top/allvisit/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.4,\n      \"layout_flexBasisPercent\": 0.4\n    }\n  },\n  {\n    \"title\": \"月点击榜\",\n    \"url\": \"/top/monthvisit/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.4,\n      \"layout_flexBasisPercent\": 0.4\n    }\n  },\n  {\n    \"title\": \"周点击榜\",\n    \"url\": \"/top/weekvisit/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.4,\n      \"layout_flexBasisPercent\": 0.4\n    }\n  },\n  {\n    \"title\": \"收藏榜\",\n    \"url\": \"/top/marknum/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.4,\n      \"layout_flexBasisPercent\": 0.4\n    }\n  },\n  {\n    \"title\": \"推荐榜\",\n    \"url\": \"/top/votenum/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.4,\n      \"layout_flexBasisPercent\": 0.4\n    }\n  },\n  {\n    \"title\": \"全部小说\",\n    \"url\": \"/sort/all/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n  {\n    \"title\": \"玄幻小说\",\n    \"url\": \"/sort/xuanhuan/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"奇幻小说\",\n    \"url\": \"/sort/qihuan/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"武侠小说\",\n    \"url\": \"/sort/wuxia/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"仙侠小说\",\n    \"url\": \"/sort/xianxia/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"都市小说\",\n    \"url\": \"/sort/dushi/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"历史小说\",\n    \"url\": \"/sort/lishi/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"军事小说\",\n    \"url\": \"/sort/junshi/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"游戏小说\",\n    \"url\": \"/sort/youxi/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"科幻小说\",\n    \"url\": \"/sort/kehuan/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"灵异小说\",\n    \"url\": \"/sort/lingyi/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  },\n  {\n    \"title\": \"其他小说\",\n    \"url\": \"/sort/qita/{{page}}.html\",\n    \"style\": {\n      \"layout_flexGrow\": 0.25,\n      \"layout_flexBasisPercent\": -1\n    }\n  }\n]",
-    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9) Mobile Safari/537.36\"}",
-    "lastUpdateTime": 1744166772594,
-    "respondTime": 1618,
-    "ruleBookInfo": {
-      "author": "@get:{a}",
-      "coverUrl": "@get:{c}",
-      "init": "@put:{n:\"[property$=book_name]@content\",\n\ta:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property$=lastest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"}",
-      "intro": "@get:{i}",
-      "kind": "@get:{k}",
-      "lastChapter": "@get:{l}",
-      "name": "@get:{n}"
-    },
-    "ruleContent": {
-      "content": ".content@html##.本章完.|^一秒记住ｈｔｔｐs://ｍ\\.\\/?$",
-      "nextContentUrl": "text.下一页@href",
-      "replaceRegex": "",
-      "title": ""
-    },
-    "ruleExplore": {
-      "author": ".s4@text",
-      "bookList": ".librarylist li",
-      "bookUrl": "a:nth-child(1)@href",
-      "coverUrl": "tag.img@src",
-      "intro": "@get:{i}",
-      "kind": ".info span:nth-child(2)@text",
-      "lastChapter": "a:nth-child(1)@text",
-      "name": ".info span:nth-child(1)@text ##.*《|》.*"
-    },
-    "ruleSearch": {
-      "author": ".info span:nth-child(2)@text",
-      "bookList": ".librarylist li ",
-      "bookUrl": "a:nth-child(1)@href",
-      "coverUrl": "a.0@href##\\D((\\d+)\\d{3})##http://www.shengxuxu.net/headimgs/$2/$1/s$1.jpg###\na.0@href##\\/(\\d+)$##$1###",
-      "intro": "@get:{i}",
-      "kind": ".info span:nth-child(3) a@text",
-      "lastChapter": ".last@text",
-      "name": ".info span:nth-child(1)@text ##.*《|》.*",
-      "wordCount": ""
-    },
-    "ruleToc": {
-      "chapterList": ".dirlist@li",
-      "chapterName": "a@text",
-      "chapterUrl": "a@href",
-      "nextTocUrl": "option@value||text.下一页@href"
-    },
-    "searchUrl": "/search.html?/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
-    "weight": 63
-  },
-  {
-    "bookSourceUrl": "https://www.taosexs.com",
-    "bookSourceName": "桃色小说",
+    "bookSourceUrl": "https://www.topwork.cc#🎃",
+    "bookSourceName": "地缘BL小说网",
     "bookSourceGroup": "备用",
     "bookSourceType": 0,
-    "bookUrlPattern": "",
-    "customOrder": 166,
-    "enabled": true,
-    "enabledExplore": true,
-    "enabledCookieJar": true,
-    "bookSourceComment": "//书名规则需小修\n同站：\n喜色屋 https://www.powenwu2.com\n日书屋 https://www.rishuwu.com",
-    "lastUpdateTime": 1743390955694,
-    "respondTime": 4046,
-    "weight": 0,
-    "exploreUrl": "                              全    部                             ::/sort/0/{{page}}.html\n玄幻奇幻::/sort/1/{{page}}.html\n武侠仙侠::/sort/2/{{page}}.html\n都市生活::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n游戏竞技::/sort/5/{{page}}.html\n科幻未来::/sort/6/{{page}}.html\n恐怖悬疑::/sort/7/{{page}}.html\n  二次元  ::/sort/8/{{page}}.html\n古代言情::/sort/9/{{page}}.html\n现代言情::/sort/10/{{page}}.html\n幻想奇缘::/sort/11/{{page}}.html\n浪漫青春::/sort/12/{{page}}.html\n网络情缘::/sort/13/{{page}}.html\n科幻空间::/sort/14/{{page}}.html\n鬼怪灵异::/sort/15/{{page}}.html\n  N 次元  ::/sort/16/{{page}}.html\n言情美文::/sort/17/{{page}}.html\n其他类型::/sort/18/{{page}}.html",
-    "ruleExplore": {
-      "bookList": "",
-      "name": "",
-      "bookUrl": ""
-    },
-    "searchUrl": "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
-    "ruleSearch": {
-      "bookList": ".c_row",
-      "name": "@text",
-      "author": "class.c_value.0@text",
-      "intro": ".c_description@text",
-      "kind": "class.c_value.2@text",
-      "lastChapter": "tag.a.3@text",
-      "bookUrl": "a@href",
-      "coverUrl": "img@src"
-    },
-    "ruleBookInfo": {
-      "name": "tag.span.0@text",
-      "author": "tag.span.1@a@text",
-      "intro": ".tabcontent@tag.div.2@text",
-      "kind": ".hide@text",
-      "lastChapter": "h3@text",
-      "coverUrl": "tag.img.1@src",
-      "tocUrl": ".b_hot@href"
-    },
-    "ruleToc": {
-      "chapterList": "dl@dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
-    },
-    "ruleContent": {
-      "content": ".acontent@textNodes"
-    },
-    "searchRule": {
-      "bookList": ".c_row",
-      "name": "@text",
-      "author": "class.c_value.0@text",
-      "intro": ".c_description@text",
-      "kind": "class.c_value.2@text",
-      "lastChapter": "tag.a.3@text",
-      "bookUrl": "a@href",
-      "coverUrl": "img@src"
-    },
-    "tag": "💝桃色小说",
-    "tocRule": {
-      "chapterList": "dl@dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
-    },
-    "contentRule": {
-      "content": ".acontent@textNodes"
-    },
-    "exploreRule": {
-      "bookList": "",
-      "name": "",
-      "bookUrl": ""
-    },
-    "bookInfoRule": {
-      "name": "tag.span.0@text",
-      "author": "tag.span.1@a@text",
-      "intro": ".tabcontent@tag.div.2@text",
-      "kind": ".hide@text",
-      "lastChapter": "h3@text",
-      "coverUrl": "tag.img.1@src",
-      "tocUrl": ".b_hot@href"
-    },
-    "key": "https://www.taosexs.com"
-  },
-  {
-    "bookSourceUrl": "http://m.111bz.cc#🎃",
-    "bookSourceName": "第一版主",
-    "bookSourceGroup": "备用",
-    "bookSourceType": 0,
-    "bookUrlPattern": "",
-    "customOrder": 199,
+    "customOrder": 74,
     "enabled": true,
     "enabledExplore": true,
     "enabledCookieJar": false,
-    "loginUrl": "",
     "bookSourceComment": "",
     "lastUpdateTime": 0,
-    "respondTime": 1576,
+    "respondTime": 1056,
     "weight": 0,
+    "exploreUrl": "",
     "ruleExplore": {},
-    "searchUrl": "http://www.111bz.cc/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "searchUrl": "https://www.topwork.cc/search/?searchkey={{key}}",
     "ruleSearch": {
-      "bookList": "class.grid@tr",
-      "name": "class.odd@a@text",
-      "author": "class.odd.1@text",
-      "kind": "class.even.2@text",
-      "lastChapter": "class.even@a@text",
-      "bookUrl": "a@href",
-      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg"
+      "bookList": "class.clear shuangs@tag.li!0",
+      "name": "a.0@text",
+      "author": "a.1@text",
+      "intro": "class.intro@text",
+      "kind": "",
+      "bookUrl": "a.0@href",
+      "wordCount": "class.orange@text"
     },
     "ruleBookInfo": {
-      "intro": "id.intro@p@text",
-      "lastChapter": "id.list@tag.dd.0@a@text"
+      "name": "class.entry-title@text",
+      "author": "class.writer@tag.a.0@text",
+      "intro": "class.summary@text",
+      "kind": "class.entry-meta@tag.span.0@text",
+      "lastChapter": "class.news@tag.a.0@text",
+      "tocUrl": "",
+      "wordCount": "class.entry-meta@tag.span.1@text"
     },
     "ruleToc": {
-      "chapterList": "id.list@dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterList": "class.clear shuang@tag.li@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
     },
     "ruleContent": {
-      "content": "id.content@textNodes"
+      "content": "class.acontent@text##€",
+      "nextContentUrl": "text.下一页@href"
     },
     "searchRule": {
-      "bookList": "class.grid@tr",
-      "name": "class.odd@a@text",
-      "author": "class.odd.1@text",
-      "kind": "class.even.2@text",
-      "lastChapter": "class.even@a@text",
-      "bookUrl": "a@href",
-      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg"
+      "bookList": "class.clear shuangs@tag.li!0",
+      "name": "a.0@text",
+      "author": "a.1@text",
+      "intro": "class.intro@text",
+      "kind": "",
+      "bookUrl": "a.0@href",
+      "wordCount": "class.orange@text"
     },
-    "tag": "第一版主🎃#2",
+    "tag": "地缘BL小说网🎃",
     "tocRule": {
-      "chapterList": "id.list@dd@a",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterList": "class.clear shuang@tag.li@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
     },
     "contentRule": {
-      "content": "id.content@textNodes"
+      "content": "class.acontent@text##€",
+      "nextContentUrl": "text.下一页@href"
     },
     "exploreRule": {},
     "bookInfoRule": {
-      "intro": "id.intro@p@text",
-      "lastChapter": "id.list@tag.dd.0@a@text"
+      "name": "class.entry-title@text",
+      "author": "class.writer@tag.a.0@text",
+      "intro": "class.summary@text",
+      "kind": "class.entry-meta@tag.span.0@text",
+      "lastChapter": "class.news@tag.a.0@text",
+      "tocUrl": "",
+      "wordCount": "class.entry-meta@tag.span.1@text"
     },
-    "loginJs": "",
-    "key": "http://m.111bz.cc#🎃"
+    "key": "https://www.topwork.cc#🎃"
   },
   {
-    "bookSourceUrl": "http://www.uu.net",
-    "bookSourceName": "精品UU小说网uu",
+    "bookSourceUrl": "https://book.zri.moe/",
+    "bookSourceName": "炎上书屋",
     "bookSourceGroup": "备用",
     "bookSourceType": 0,
-    "customOrder": 169,
+    "customOrder": 3596,
     "enabled": true,
     "enabledExplore": true,
-    "enabledCookieJar": false,
-    "bookSourceComment": "By：Tom",
-    "lastUpdateTime": 1630690551118,
-    "respondTime": 1840,
+    "enabledCookieJar": true,
+    "bookSourceComment": "By_zhbyjm7783",
+    "lastUpdateTime": 1721269638513,
+    "respondTime": 1987,
     "weight": 0,
+    "exploreUrl": "[{\"title\":\"༺ˇ»`ʚ 书库 ɞ´«ˇ༻\",\"url\":\"https://book.zri.moe/api/book?page={{page}}&per=8&order_by=ct&desc=true\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}]",
     "ruleExplore": {},
-    "searchUrl": "http://www.uu234.net/search?wd={{key}}&pn={{page-1}}",
+    "searchUrl": "https://book.zri.moe/api/book?page=1&per=8&order_by=ct&desc=true&keywords=[\"{{key}}\"]",
     "ruleSearch": {
-      "bookList": "class.listcon clearfix@tag.li",
-      "name": "class.width369@tag.a.0@text",
-      "author": "class.width111@tag.a.0@text",
-      "kind": "class.width369@tag.span.0@text##\\].*|\\[",
-      "lastChapter": "class.width369@tag.a.1@text",
-      "bookUrl": "class.width369@tag.a.0@href"
+      "bookList": "data[*]",
+      "name": "title",
+      "author": "userInfo.username",
+      "intro": "introduction",
+      "kind": "",
+      "lastChapter": "lastChapterInfo.title",
+      "bookUrl": "https://book.zri.moe/api/book/{{$.id}}",
+      "coverUrl": "https://book.zri.moe/api/book/{{$.id}}/cover"
     },
     "ruleBookInfo": {
-      "name": "class.r420@tag.h1@text",
-      "author": "class.author@tag.a.0@text",
-      "intro": "class.r_cons@text##内容简介:",
-      "coverUrl": "class.con_limg@tag.img@src",
-      "tocUrl": "class.dirtools@tag.a@href"
+      "init": "meta",
+      "name": "",
+      "kind": "tags",
+      "coverUrl": "https://book.zri.moe/api/book/{{$.id}}/cover"
     },
     "ruleToc": {
-      "chapterList": "class.clearfix dirconone.1@tag.li",
-      "chapterName": "tag.a.0@text",
-      "chapterUrl": "tag.a.0@href"
+      "chapterList": "sections[*].chapters[*]",
+      "chapterName": "title",
+      "chapterUrl": "https://book.zri.moe/api/book/{{$.book_id}}/chapter/{{$.id}}"
     },
     "ruleContent": {
-      "content": "class.content@textNodes"
+      "content": "body"
     },
-    "tag": "精品UU小说网uu",
     "searchRule": {
-      "bookList": "class.listcon clearfix@tag.li",
-      "name": "class.width369@tag.a.0@text",
-      "author": "class.width111@tag.a.0@text",
-      "kind": "class.width369@tag.span.0@text##\\].*|\\[",
-      "lastChapter": "class.width369@tag.a.1@text",
-      "bookUrl": "class.width369@tag.a.0@href"
+      "bookList": "data[*]",
+      "name": "title",
+      "author": "userInfo.username",
+      "intro": "introduction",
+      "kind": "",
+      "lastChapter": "lastChapterInfo.title",
+      "bookUrl": "https://book.zri.moe/api/book/{{$.id}}",
+      "coverUrl": "https://book.zri.moe/api/book/{{$.id}}/cover"
+    },
+    "tag": "炎上书屋",
+    "tocRule": {
+      "chapterList": "sections[*].chapters[*]",
+      "chapterName": "title",
+      "chapterUrl": "https://book.zri.moe/api/book/{{$.book_id}}/chapter/{{$.id}}"
+    },
+    "contentRule": {
+      "content": "body"
     },
     "exploreRule": {},
     "bookInfoRule": {
-      "name": "class.r420@tag.h1@text",
-      "author": "class.author@tag.a.0@text",
-      "intro": "class.r_cons@text##内容简介:",
-      "coverUrl": "class.con_limg@tag.img@src",
-      "tocUrl": "class.dirtools@tag.a@href"
+      "init": "meta",
+      "name": "",
+      "kind": "tags",
+      "coverUrl": "https://book.zri.moe/api/book/{{$.id}}/cover"
     },
-    "tocRule": {
-      "chapterList": "class.clearfix dirconone.1@tag.li",
-      "chapterName": "tag.a.0@text",
-      "chapterUrl": "tag.a.0@href"
-    },
-    "contentRule": {
-      "content": "class.content@textNodes"
-    },
-    "key": "http://www.uu.net"
+    "key": "https://book.zri.moe/"
   }
 ]
