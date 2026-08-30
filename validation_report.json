@@ -1,13 +1,12 @@
 {
-  "timestamp": "2026-08-23T02:55:23.899746",
-  "total": 212,
-  "valid": 209,
-  "invalid": 3,
+  "timestamp": "2026-08-30T07:43:21.523060",
+  "total": 209,
+  "valid": 207,
+  "invalid": 2,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "http://www.ybsws.com/": "Cannot connect to host www.ybsws.com:80 ssl:defaul",
-    "http://www.zhuishushenqi.com#🎃": "Cannot connect to host www.zhuishushenqi.com:80 ss",
-    "https://m.shuhaige.tw#🎃": "超时"
+    "http://www.xbotaodz.com": "400, message=\"Data after `Connection: close`:\\n\\n ",
+    "https://www.lalashuwu.com/": "超时"
   }
 }
