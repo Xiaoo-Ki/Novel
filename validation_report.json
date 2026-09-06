@@ -1,12 +1,15 @@
 {
-  "timestamp": "2026-08-30T07:43:21.523060",
-  "total": 209,
-  "valid": 207,
-  "invalid": 2,
+  "timestamp": "2026-09-06T06:43:12.619186",
+  "total": 207,
+  "valid": 202,
+  "invalid": 5,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "http://www.xbotaodz.com": "400, message=\"Data after `Connection: close`:\\n\\n ",
-    "https://www.lalashuwu.com/": "超时"
+    "http://www.fuxiaoshu.com/": "HTTP 403",
+    "http://www.fuxs3.cc#🎃": "HTTP 403",
+    "http://www.fuxs2.com": "HTTP 403",
+    "http://www.fxshu.cc": "HTTP 403",
+    "https://www.qb5.io/": "超时"
   }
 }
