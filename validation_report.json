@@ -1,15 +1,12 @@
 {
-  "timestamp": "2026-09-27T07:25:09.888518",
-  "total": 199,
-  "valid": 194,
-  "invalid": 5,
+  "timestamp": "2026-10-04T07:37:42.311609",
+  "total": 194,
+  "valid": 192,
+  "invalid": 2,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://www.doupoall.com#🎃": "Server disconnected",
-    "https://www.luoxia123.com/": "Server disconnected",
-    "https://www.52dzxy.com/": "HTTP 403",
-    "https://www.aaqqcc.com/": "Cannot connect to host www.aaqqcc.com:443 ssl:defa",
-    "https://reader.browser.miui.com/v2#🎃": "超时"
+    "https://www.zhaogushi.cn": "Server disconnected",
+    "http://www.dushu.com": "超时"
   }
 }
