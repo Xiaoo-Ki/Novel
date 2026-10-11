@@ -1,12 +1,14 @@
 {
-  "timestamp": "2026-10-04T07:37:42.311609",
-  "total": 194,
-  "valid": 192,
-  "invalid": 2,
+  "timestamp": "2026-10-11T08:05:29.070675",
+  "total": 192,
+  "valid": 188,
+  "invalid": 4,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://www.zhaogushi.cn": "Server disconnected",
-    "http://www.dushu.com": "超时"
+    "http://www.fuxs.top#🎃": "超时",
+    "http://www.fuxsb.cc#🎃": "超时",
+    "https://m.xiashuyun.com/": "Cannot connect to host m.xiashuyun.com:443 ssl:def",
+    "https://www.yodu.org": "超时"
   }
 }
