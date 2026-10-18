@@ -1,14 +1,13 @@
 {
-  "timestamp": "2026-10-11T08:05:29.070675",
-  "total": 192,
-  "valid": 188,
-  "invalid": 4,
+  "timestamp": "2026-10-18T06:50:41.700404",
+  "total": 188,
+  "valid": 185,
+  "invalid": 3,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "http://www.fuxs.top#🎃": "超时",
-    "http://www.fuxsb.cc#🎃": "超时",
-    "https://m.xiashuyun.com/": "Cannot connect to host m.xiashuyun.com:443 ssl:def",
-    "https://www.yodu.org": "超时"
+    "https://www.esjzone.one": "超时",
+    "https://www.qubook.org#": "超时",
+    "https://qubook.org": "超时"
   }
 }
