@@ -1,13 +1,16 @@
 {
-  "timestamp": "2026-10-18T06:50:41.700404",
-  "total": 188,
-  "valid": 185,
-  "invalid": 3,
+  "timestamp": "2026-10-25T07:09:02.704552",
+  "total": 185,
+  "valid": 179,
+  "invalid": 6,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://www.esjzone.one": "超时",
-    "https://www.qubook.org#": "超时",
-    "https://qubook.org": "超时"
+    "https://android-api.xrzww.com/": "Server disconnected",
+    "https://afdian.com": "HTTP 521",
+    "https://m.roushuwu.com/": "Cannot connect to host m.roushuwu.com:443 ssl:defa",
+    "https://www.shenhuazhihou.com": "Server disconnected",
+    "https://www.qbtr.me/": "Server disconnected",
+    "https://www.xnxx.com/": "HTTP 500"
   }
 }

@@ -1,262 +1,507 @@
 [
   {
-    "bookSourceUrl": "https://www.esjzone.one",
-    "bookSourceName": "ESJ",
+    "bookSourceUrl": "https://android-api.xrzww.com/",
+    "bookSourceName": "息壤中文",
+    "bookSourceGroup": "标准",
+    "bookSourceType": 0,
+    "bookUrlPattern": "",
+    "customOrder": 40,
+    "enabled": true,
+    "enabledExplore": true,
+    "enabledCookieJar": false,
+    "concurrentRate": "",
+    "header": "@js: \n(()=>{\n\t let device=\"webh51721491792120\"\n\t let Authorization=\"Bearer 7e6f692755e03ee35d02988393fdc7bc\"\n let timestamp = Math.round(Date.now()/1000)\n let key=\"9495ef469eb3e7ae8ef3\"\n let signature = java.md5Encode(device+timestamp+key)\n return JSON.stringify({\n \t\"Authorization\":Authorization,\n\t\"appVersion\":\"4.70\",\n\t\"deviceType\":\"android\",\n\t\"signature\":signature,\n\t\"site\":\"1\",\n\t\"content-type\":\"application/json\",\n\t\"headerRequestSource\":\"xirang\",\n\t\"Connection\":\"Keep-Alive\",\n\t\"User-Agent\":\"okhttp/4.8.0\",\n\t\"deviceIdentify\":device,\n\t\"timestamp\":timestamp\n\t})\n})()",
+    "loginUrl": "",
+    "loginCheckJs": "",
+    "bookSourceComment": "by哒哒哒\n\n息壤登陆后，抓包device和Authorization填到下方请求头",
+    "lastUpdateTime": 1721495416991,
+    "respondTime": 358,
+    "weight": 0,
+    "exploreUrl": "玄幻::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=1&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n仙侠::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=2&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n都市::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=3&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n历史::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=4&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n科幻::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=5&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n奇幻::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=6&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n军事::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=7&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n悬疑::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=11&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n轻小说::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=9&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n体育::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=12&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n游戏::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=13&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n武侠::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=14&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n热销::/api/hotSaleListNew?page={{page}}&pageSize=20&novel_sex=1&type=1\n字数::/api/wordnumListNew?page={{page}}&pageSize=20&novel_sex=1&type=1\n更新::/api/wordsListNew?page={{page}}&pageSize=20&novel_sex=1&type=1\n现代言情::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=77&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n纯爱小说::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=82&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n无CP::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=83&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n古代言情::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=80&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\n幻想言情::/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=81&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=",
+    "ruleExplore": {
+      "bookList": "",
+      "name": "",
+      "author": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "wordCount": ""
+    },
+    "searchUrl": "/api/searchAll?search_value={{key}}&search_type=novel&page={{page}}&pageSize=20",
+    "ruleSearch": {
+      "bookList": "$.data.data[*]",
+      "name": "novel_name",
+      "author": "novel_author",
+      "intro": "",
+      "kind": "novel_tags",
+      "lastChapter": "{{java.timeFormat(java.getString(\"novel_uptime\")*1000)}} {{$.novel_newcname}}",
+      "bookUrl": "/api/detail?novel_id={{$.novel_id}}",
+      "coverUrl": "https://oss.xrzww.com/{{$.novel_cover}}",
+      "wordCount": "novel_wordnumber"
+    },
+    "ruleBookInfo": {
+      "init": "$.data",
+      "name": "",
+      "author": "",
+      "intro": " &lrm;\n 🔖 标签：{{$.novel_tags}}\n &lrm;\n 🏷 简介：{{$.novel_info}}",
+      "kind": "",
+      "lastChapter": "",
+      "coverUrl": "",
+      "tocUrl": "/api/novelDirectory?nid={{$.novel_id}}&orderBy=asc",
+      "wordCount": "",
+      "canReName": ""
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nlet data=JSON.parse(result).data\nlet chapterList=[]\nfor(var volume of data){\n\tchapterList.push({\n\t\tname:volume.volume_name,\n\t\tisVolume:true,\n\t\tinfo:volume.volume_desc\n\t\t})\n\t\tfor(var chapter of volume.chapter_list){\n\t\t\tvar isVip=chapter.chapter_ispay==0?\"\":\"💰\"\n\t\t\tvar time=java.timeFormat(chapter.chapter_time*1000)\n\t\t\tchapterList.push({\n\t\t\t\tname:isVip+chapter.chapter_name,\n\t\t\t\tisVolume:false,\n\t\t\t\tinfo:`更新时间:`+time+` 字数:${chapter.chapter_number}`,\n\t\t\t\turl:`/api/readWithEncrypt?chapter_id=${chapter.chapter_id}&nid=${chapter.chapter_nid}&preload=0`\n\t\t\t\t})\n\t\t\t}\n\t}\nchapterList\n</js>",
+      "chapterName": "name",
+      "chapterUrl": "url",
+      "updateTime": "info",
+      "nextTocUrl": ""
+    },
+    "ruleContent": {
+      "content": "$..content\n<js>\njava.aesBase64DecodeToString(result,\"VT5aj59QCjf2J8F3\",\"AES/CBC/PKCS5Padding\",\"259c4e9881b5fe05\")\n</js>",
+      "nextContentUrl": "",
+      "webJs": "",
+      "sourceRegex": "",
+      "replaceRegex": "",
+      "imageStyle": ""
+    },
+    "searchRule": {
+      "bookList": "$.data.data[*]",
+      "name": "novel_name",
+      "author": "novel_author",
+      "intro": "",
+      "kind": "novel_tags",
+      "lastChapter": "{{java.timeFormat(java.getString(\"novel_uptime\")*1000)}} {{$.novel_newcname}}",
+      "bookUrl": "/api/detail?novel_id={{$.novel_id}}",
+      "coverUrl": "https://oss.xrzww.com/{{$.novel_cover}}",
+      "wordCount": "novel_wordnumber"
+    },
+    "tag": "息壤中文",
+    "tocRule": {
+      "chapterList": "<js>\nlet data=JSON.parse(result).data\nlet chapterList=[]\nfor(var volume of data){\n\tchapterList.push({\n\t\tname:volume.volume_name,\n\t\tisVolume:true,\n\t\tinfo:volume.volume_desc\n\t\t})\n\t\tfor(var chapter of volume.chapter_list){\n\t\t\tvar isVip=chapter.chapter_ispay==0?\"\":\"💰\"\n\t\t\tvar time=java.timeFormat(chapter.chapter_time*1000)\n\t\t\tchapterList.push({\n\t\t\t\tname:isVip+chapter.chapter_name,\n\t\t\t\tisVolume:false,\n\t\t\t\tinfo:`更新时间:`+time+` 字数:${chapter.chapter_number}`,\n\t\t\t\turl:`/api/readWithEncrypt?chapter_id=${chapter.chapter_id}&nid=${chapter.chapter_nid}&preload=0`\n\t\t\t\t})\n\t\t\t}\n\t}\nchapterList\n</js>",
+      "chapterName": "name",
+      "chapterUrl": "url",
+      "updateTime": "info",
+      "nextTocUrl": ""
+    },
+    "contentRule": {
+      "content": "$..content\n<js>\njava.aesBase64DecodeToString(result,\"VT5aj59QCjf2J8F3\",\"AES/CBC/PKCS5Padding\",\"259c4e9881b5fe05\")\n</js>",
+      "nextContentUrl": "",
+      "webJs": "",
+      "sourceRegex": "",
+      "replaceRegex": "",
+      "imageStyle": ""
+    },
+    "exploreRule": {
+      "bookList": "",
+      "name": "",
+      "author": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "wordCount": ""
+    },
+    "bookInfoRule": {
+      "init": "$.data",
+      "name": "",
+      "author": "",
+      "intro": " &lrm;\n 🔖 标签：{{$.novel_tags}}\n &lrm;\n 🏷 简介：{{$.novel_info}}",
+      "kind": "",
+      "lastChapter": "",
+      "coverUrl": "",
+      "tocUrl": "/api/novelDirectory?nid={{$.novel_id}}&orderBy=asc",
+      "wordCount": "",
+      "canReName": ""
+    },
+    "loginJs": "",
+    "key": "https://android-api.xrzww.com/"
+  },
+  {
+    "bookSourceComment": "◎登录直接点登录，填账号密码，不要改登录规则里的东西，阅读升级最新版\n◎网站只能搜作者\n（导入前请备份好自己的发现规则，登录直接点登录，填账号密码，不要改登录规则里的东西，阅读升级最新版，网站只能搜作者）",
+    "bookSourceGroup": "精选",
+    "bookSourceName": "爱发电网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://afdian.com",
+    "customButton": false,
+    "customOrder": 310,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "eventListener": false,
+    "exploreUrl": "兽屋之龙的作品集::https://afdian.com/api/user/get-album-list?user_id=63609ee2d7e211eabceb52540025c377&page={{page}}\n21点牌的作品集::https://afdian.com/api/user/get-album-list?user_id=23993afe491211ee9d985254001e7c00&page={{page}}\n【防弹bts】关我西红柿⚡请多多催更！的作品集::https://afdian.com/api/user/get-album-list?user_id=577c5de2090911ecbce152540025c377&page={{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
+    "lastUpdateTime": 1766339636515,
+    "loginUi": "[\n  {\n    \"name\": \"手机号码/邮箱号\",\n    \"type\": \"text\"\n  },\n  {\n    \"name\": \"密码\",\n    \"type\": \"password\"\n  }\n]",
+    "loginUrl": "<js>\nfunction login(){\nuserInfo=source.getLoginInfoMap()\njava.log(userInfo)\nUNE=userInfo['手机号码/邮箱号']\nPWD=userInfo['密码']\nurl=\"{{source.getKey()}}/api/passport/login,\";\nSU=source.getKey()\nbody={\n  \"account\": String(UNE),\n  \"password\": String(PWD),\n  \"mp_token\": -1\n}\noption={\n'method': 'POST',\n'body': JSON.stringify(body)\n}\n\nurl=url+JSON.stringify(option)\ntoken=java.ajax(url).match(/\"auth_token\":\"([^\"]+)\"/)[1]\n\nCookie={\n\t\"Cookie\":\"auth_token=\"+token\n\t}\nheader = JSON.stringify(Cookie)\nsource.putLoginHeader(header)\n}\n</js>",
+    "respondTime": 1501,
+    "ruleBookInfo": {
+      "author": "$.data.album.user.name",
+      "coverUrl": "$.data.album.cover",
+      "intro": "$..content",
+      "name": "$.data.album.title",
+      "tocUrl": "<js>\nif(baseUrl.match(/get-album-info/)){\n\tjson=JSON.parse(result);\turl=\"/api/user/get-album-catalog?album_id=\"+json.data.album.album_id\n\t}\n</js>"
+    },
+    "ruleContent": {
+      "content": "<js>\nif(baseUrl.match(/album-info/)){\n\t\n\tif(book.durChapterIndex === chapter.index){\n\t\turl = \"legado://import/addToBookshelf?src=\"+baseUrl;\n\t\tscript = `data:text/html;charset=utf-8,\n\t\t<html>\n\t\t<title>《${title}》加入书架</title>\n\t\t<p style=\"font-size:60px\"><img src=\"${JSON.parse(result).data.album.cover}\" style=\"max-width: 300px; max-height: 400px\">\n\t\t\n\t\t简介：${JSON.parse(result).data.album.content}</p>\n\t\t<p style=\"text-align: center;\"><a href=\"${url}\" style=\"font-size:50px;\">跳转加入书架</a></p>\n\t\t\n\t\t</html>\n\t\t<script>\n        window.onload = function () {\n            window.location.href = '${url}';\n        };\n    </script>`;\n\t\tjava.startBrowser(script,\"《\"+book.title+\"》\")\n\t\t\n\t\t}\n\t\ntext=\"❗️刷新本章节，跳转本书详情页\\n\"+'简介：'+JSON.parse(result).data.album.content+\"\\n\"+'<img src=\"'+JSON.parse(result).data.album.cover+'\">'\n}else if(baseUrl.match(/post_id/)){\n\tjson=JSON.parse(result)\n\tpics=json.data.post.pics;\n\tvideo=json.data.post.video?\"视频链接：\"+json.data.post.video:\"\"\n\tpreview_text=json.data.post.preview_text?json.data.post.preview_text:\"\"\n\timgs=\"\";\n\tfor(i in pics){\n\t\timgs+='<img src=\"'+pics[i]+'\">\\n'\n\t\t}\n\tresult=json.data.post.content+imgs+video;\n\tresult!=\"\"?result:preview_text+\"\\n💰\"+json.data.post.min_price+\"\\n\"+json.data.post.has_right_errMsg\n\t}else{\n\t\tresult=\"↓↓复制下面文字，编辑书源，添加至发现规则↓↓\\n\"+book.name+\"的作品集::\"+baseUrl.replace(/page=1/,'page={\\{page}}')\n\t\t}\n</js>\n##class=\"fr-fic fr-dib\".*?\"\\[object Object\\]\"",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "bookList": "$.data.list",
+      "bookUrl": "/api/user/get-album-info?album_id={{$.album_id}}",
+      "coverUrl": "$.cover",
+      "intro": "$.content",
+      "lastChapter": "$.update_time\n<js>\njava.timeFormat(result+\"000\")\n</js>",
+      "name": "$.title"
+    },
+    "ruleSearch": {
+      "bookList": "$.data.list",
+      "bookUrl": "/api/user/get-album-list?user_id={{$.creator.user_id}}&page=1",
+      "checkKeyWord": "沙雕",
+      "coverUrl": "$.cover",
+      "intro": "$.creator.detail",
+      "kind": "$..category.name",
+      "name": "$.name"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list\n<js>\nif(baseUrl.match(/get-album-list/)){\nresult=String(result).replace(/\\[/,'[{\"text\":\"'+book.name+'\",\"url\":\"'+baseUrl+'\"},')\n}\nresult\n</js>\n$.[*]",
+      "chapterName": "$.title||$.text",
+      "chapterUrl": "<js>\nif(baseUrl.match(/get-album-list/)){\nresult=\"{{$.album_id}}\"?\"/api/user/get-album-info?album_id={{$.album_id}}\":\"{{$.url}}\";\n}else if(baseUrl.match(/get-album-catalog/)){\tresult=\"/api/post/get-detail?post_id={{$.post_id}}&album_id={{$.album_ids[0]}}\"\n\t}\n</js>",
+      "updateTime": "{{$.content_length}}字 💰{{$.min_price}} 目录总数：{{$.post_count}}\n<js>\ntime=\"{{$.publish_time}}\"?java.timeFormat(\"{{$.publish_time}}000\"):\"\"\nresult=time+\" \"+result\n</js>\n##💰0\\.00| 字 💰| 目录总数：$"
+    },
+    "searchUrl": "/api/creator/list?page={{page}}&type=hot&category_id=&q={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceUrl": "https://m.roushuwu.com/",
+    "bookSourceName": "肉书屋",
+    "bookSourceGroup": "标准",
+    "bookSourceType": 0,
+    "bookUrlPattern": "",
+    "customOrder": 40,
+    "enabled": true,
+    "enabledExplore": true,
+    "enabledCookieJar": false,
+    "concurrentRate": "",
+    "header": "",
+    "loginUrl": "",
+    "loginCheckJs": "",
+    "bookSourceComment": "同站：\n肉色屋 https://m.rousewu.in",
+    "lastUpdateTime": 1721298993877,
+    "respondTime": 734,
+    "weight": 0,
+    "exploreUrl": "[{\"title\":\"榜    单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"总点击\",\"url\":\"/top/allvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"月点击\",\"url\":\"/top/monthvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"周点击\",\"url\":\"/top/weekvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"日点击\",\"url\":\"/top/dayvisit_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"总推荐\",\"url\":\"/top/allvote_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"月推荐\",\"url\":\"/top/monthvote_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"周推荐\",\"url\":\"/top/weekvote_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"日推荐\",\"url\":\"/top/dayvote_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"总收藏\",\"url\":\"/top/goodnum_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"字数排行\",\"url\":\"/top/size_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"最新入库\",\"url\":\"/top/postdate_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"最近更新\",\"url\":\"/top/lastupdate_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分    类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},{\"title\":\"校园言情\",\"url\":\"/sort/1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/sort/2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代言情\",\"url\":\"/sort/3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"罗曼史\",\"url\":\"/sort/4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"耽美\",\"url\":\"/sort/5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"百合\",\"url\":\"/sort/6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人\",\"url\":\"/sort/7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"奇幻玄幻\",\"url\":\"/sort/8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/sort/9_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻异能\",\"url\":\"/sort/10_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"/sort/11_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"惊悚推理\",\"url\":\"/sort/12_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/sort/13_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/sort/14_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/sort/15_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"综合其他\",\"url\":\"/sort/16_{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完  本\",\"url\":\"/full/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "ruleExplore": {
+      "bookList": ".articlegeneral li||.newbook_list",
+      "name": ".p1 a@text||.newbook_title@text",
+      "author": ".p3@text||.newbook_author@text",
+      "intro": ".newbook_intor@text",
+      "kind": ".p2@text&&.s1@text",
+      "lastChapter": "",
+      "bookUrl": ".p1 a@href||.newbook_title a@href",
+      "coverUrl": "img@src||tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://img.roushuwu.com/image/$2/$1/$1s.jpg###",
+      "wordCount": ""
+    },
+    "searchUrl": "/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=\"\n}",
+    "ruleSearch": {
+      "bookList": ".sort_box_list",
+      "name": "tag.a.1@text",
+      "author": "tag.a.2@text",
+      "intro": ".newbook_intor@text",
+      "kind": ".s1@text",
+      "lastChapter": "",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "wordCount": ""
+    },
+    "ruleBookInfo": {
+      "init": "",
+      "name": "tag.h3.0@text",
+      "author": ".catalog_author a@text",
+      "intro": ".catalog_intor@html##.*简介.",
+      "kind": ".s1@text&&.s2@text&&.catalog_updatetime span@text##\\s.*",
+      "lastChapter": ".catalog_newest a@text",
+      "coverUrl": ".catalog_pic_left img@src",
+      "tocUrl": "",
+      "wordCount": "",
+      "canReName": ""
+    },
+    "ruleToc": {
+      "chapterList": ".catalog_list!0@li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "updateTime": "",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "ruleContent": {
+      "content": ".chapter_content@html",
+      "nextContentUrl": "",
+      "webJs": "",
+      "sourceRegex": "",
+      "replaceRegex": "",
+      "imageStyle": ""
+    },
+    "searchRule": {
+      "bookList": ".sort_box_list",
+      "name": "tag.a.1@text",
+      "author": "tag.a.2@text",
+      "intro": ".newbook_intor@text",
+      "kind": ".s1@text",
+      "lastChapter": "",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "wordCount": ""
+    },
+    "tag": "肉书屋①",
+    "tocRule": {
+      "chapterList": ".catalog_list!0@li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "updateTime": "",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "contentRule": {
+      "content": ".chapter_content@html",
+      "nextContentUrl": "",
+      "webJs": "",
+      "sourceRegex": "",
+      "replaceRegex": "",
+      "imageStyle": ""
+    },
+    "exploreRule": {
+      "bookList": ".articlegeneral li||.newbook_list",
+      "name": ".p1 a@text||.newbook_title@text",
+      "author": ".p3@text||.newbook_author@text",
+      "intro": ".newbook_intor@text",
+      "kind": ".p2@text&&.s1@text",
+      "lastChapter": "",
+      "bookUrl": ".p1 a@href||.newbook_title a@href",
+      "coverUrl": "img@src||tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://img.roushuwu.com/image/$2/$1/$1s.jpg###",
+      "wordCount": ""
+    },
+    "bookInfoRule": {
+      "init": "",
+      "name": "tag.h3.0@text",
+      "author": ".catalog_author a@text",
+      "intro": ".catalog_intor@html##.*简介.",
+      "kind": ".s1@text&&.s2@text&&.catalog_updatetime span@text##\\s.*",
+      "lastChapter": ".catalog_newest a@text",
+      "coverUrl": ".catalog_pic_left img@src",
+      "tocUrl": "",
+      "wordCount": "",
+      "canReName": ""
+    },
+    "loginJs": "",
+    "key": "https://m.roushuwu.com/"
+  },
+  {
+    "bookSourceComment": "BY:溪",
+    "bookSourceGroup": "备用",
+    "bookSourceName": "神话之后",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shenhuazhihou.com",
+    "bookUrlPattern": "https://www.shenhuazhihou.com/book/\\d+/",
+    "customButton": false,
+    "customOrder": 121,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "eventListener": false,
+    "exploreUrl": "小说::https://www.shenhuazhihou.com/book/<,index_{{page}}.html>",
+    "lastUpdateTime": 1759523290402,
+    "respondTime": 3604,
+    "ruleBookInfo": {
+      "author": ".m-infos@span.0@text",
+      "coverUrl": "img@src",
+      "intro": "p.0@text\n##(^|[。！？……]+[”」）……】]?)##$1<br>",
+      "kind": ".m-infos@span.1:2@text##.*：|.*：",
+      "lastChapter": ".m-upd@a@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@p@html",
+      "nextContentUrl": "text.下一@href"
+    },
+    "ruleExplore": {
+      "author": "td.1@text",
+      "bookList": "tbody@tr",
+      "bookUrl": "a.0@href",
+      "kind": "td.2@text",
+      "name": "td.0@a@text"
+    },
+    "ruleSearch": {
+      "author": ".author@text",
+      "bookList": ".book-coverlist",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@src",
+      "intro": ".intro@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "#play_0@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.shenhuazhihou.com/e/search/index.php,{\n  \"body\": \"tbname=bookname&show=title,writer&tempid=1&keyboard={{key}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceUrl": "https://www.qbtr.me/",
+    "bookSourceName": "全本同人",
     "bookSourceGroup": "备用",
     "bookSourceType": 0,
-    "customOrder": 1707,
+    "bookUrlPattern": "",
+    "customOrder": 3215,
     "enabled": true,
     "enabledExplore": true,
     "enabledCookieJar": true,
-    "loginUrl": "https://www.esjzone.zone/my/profile.html",
-    "bookSourceComment": "",
-    "lastUpdateTime": 0,
-    "respondTime": 2548,
+    "header": "",
+    "loginUrl": "",
+    "bookSourceComment": "能看菠萝包",
+    "lastUpdateTime": 1721533218752,
+    "respondTime": 2936,
     "weight": 0,
-    "exploreUrl": "[{\"title\":\"全部\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/list-01/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/list-02/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/list-03/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/list-04/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/list-05/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/list-06/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/list-07/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/list-08/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"原創\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/list-21/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/list-22/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/list-23/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/list-24/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/list-25/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/list-26/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/list-27/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/list-28/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"日輕\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/list-11/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/list-12/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/list-13/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/list-14/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/list-15/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/list-16/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/list-17/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/list-18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"韓輕\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/list-31/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/list-32/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/list-33/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/list-34/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/list-35/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/list-36/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/list-37/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/list-38/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"R18\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"最新更新\",\"url\":\"/tags-01/R18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最新上架\",\"url\":\"/tags-02/R18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最高评分\",\"url\":\"/tags-03/R18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多观看\",\"url\":\"/tags-04/R18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多文章\",\"url\":\"/tags-05/R18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多讨论\",\"url\":\"/tags-06/R18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多收藏\",\"url\":\"/tags-07/R18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"最多字数\",\"url\":\"/tags-08/R18/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
-    "ruleExplore": {},
-    "searchUrl": "/tags-01/{{key}}/{{page}}.html",
+    "exploreUrl": "同人小说::/tongren/<,index_{{page}}.html>\n常规小说::/changgui/<,index_{{page}}.html>\n同人榜单::/hot/<,index_{{page}}.html>",
+    "ruleExplore": {
+      "bookList": "",
+      "name": "",
+      "author": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "bookUrl": "",
+      "coverUrl": ""
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
     "ruleSearch": {
-      "bookList": "div.col-lg-3",
-      "name": ".card-title@a@text",
-      "author": ".card-author@a@text",
-      "kind": "{{@@div.card-other.1@div.2@text##\\D}}个收藏,{{@@div.card-other.2@div.2@text##\\D}}条留言",
-      "lastChapter": ".card-ep@a@text",
-      "bookUrl": ".card-title@a@href",
-      "coverUrl": "div.lazyload@html##.*\"(.*)\".*##$1",
-      "wordCount": "div.card-other.0@div.column.1@text##\\D"
+      "bookList": ".bk",
+      "name": "h3@text##\\(\\S+",
+      "author": ".booknews@ownText##.*：",
+      "intro": "p@text##简介.",
+      "kind": "label@text",
+      "lastChapter": "h3@text##\\S+\\(|\\)",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@src"
     },
     "ruleBookInfo": {
-      "name": "h2@text",
-      "author": "ul.list-unstyled@li.1@a@text",
-      "intro": "<br>{{@@section.m-t-20@a.tag@text##(^|[\\n])##🏷️}}\n{{'&lrm;'}}\n{{@@div.description@html}}",
-      "kind": "{{@@ul.list-unstyled@li.0@text##類型.\\s}},{{@@ul.list-unstyled@li.-2@text##更新日期.\\s}},{{@@.hidden-xs@div.display-3@text##$##分}}",
-      "lastChapter": "#chapterList@a.-1@p@text&&.list-unstyled@li.-2@text##更新日期.\\s",
-      "coverUrl": ".product-gallery@img@src",
-      "wordCount": "span#txt@text##\\D"
+      "init": "",
+      "name": ".infos h1@text##\\(\\S+",
+      "author": ".date span@text##.*：",
+      "intro": ".infos p@html",
+      "kind": ".menNav a.1@text&&.date@textNodes##.*：|小说",
+      "lastChapter": ".book_list a.-1@text",
+      "coverUrl": ".pic img@src"
     },
     "ruleToc": {
-      "chapterList": "#chapterList@a[data-title], p.non, summary",
+      "chapterList": ".book_list a",
       "chapterName": "text",
       "chapterUrl": "href"
     },
     "ruleContent": {
-      "content": "div.forum-content@html"
+      "content": ".read_chapterDetail@html",
+      "nextContentUrl": ""
     },
     "searchRule": {
-      "bookList": "div.col-lg-3",
-      "name": ".card-title@a@text",
-      "author": ".card-author@a@text",
-      "kind": "{{@@div.card-other.1@div.2@text##\\D}}个收藏,{{@@div.card-other.2@div.2@text##\\D}}条留言",
-      "lastChapter": ".card-ep@a@text",
-      "bookUrl": ".card-title@a@href",
-      "coverUrl": "div.lazyload@html##.*\"(.*)\".*##$1",
-      "wordCount": "div.card-other.0@div.column.1@text##\\D"
+      "bookList": ".bk",
+      "name": "h3@text##\\(\\S+",
+      "author": ".booknews@ownText##.*：",
+      "intro": "p@text##简介.",
+      "kind": "label@text",
+      "lastChapter": "h3@text##\\S+\\(|\\)",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@src"
     },
-    "tag": "ESJ Zone🎃",
+    "tag": "全本同人",
     "tocRule": {
-      "chapterList": "#chapterList@a[data-title], p.non, summary",
+      "chapterList": ".book_list a",
       "chapterName": "text",
       "chapterUrl": "href"
     },
     "contentRule": {
-      "content": "div.forum-content@html"
+      "content": ".read_chapterDetail@html",
+      "nextContentUrl": ""
+    },
+    "exploreRule": {
+      "bookList": "",
+      "name": "",
+      "author": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "bookUrl": "",
+      "coverUrl": ""
+    },
+    "bookInfoRule": {
+      "init": "",
+      "name": ".infos h1@text##\\(\\S+",
+      "author": ".date span@text##.*：",
+      "intro": ".infos p@html",
+      "kind": ".menNav a.1@text&&.date@textNodes##.*：|小说",
+      "lastChapter": ".book_list a.-1@text",
+      "coverUrl": ".pic img@src"
+    },
+    "loginJs": "",
+    "key": "https://www.qbtr.me/"
+  },
+  {
+    "bookSourceUrl": "https://www.xnxx.com/",
+    "bookSourceName": "Xnxx",
+    "bookSourceGroup": "备用",
+    "bookSourceType": 0,
+    "customOrder": -5586,
+    "enabled": true,
+    "enabledExplore": true,
+    "enabledCookieJar": false,
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; U; Android 13; zh-Hans-CN; PFJM10 Build/TP1A.220905.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.4896.58 Quark/6.13.6.581 Mobile Safari/537.36\",\"Accept-Language\":\"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\"}",
+    "bookSourceComment": "By小新\n首发论坛:https://srcbbs.com/\n\t——250523\n请不要修改注释\n标签太多了，就不一一获取了，喜欢的类型可以自己添加",
+    "lastUpdateTime": 1747929508151,
+    "respondTime": 3435,
+    "weight": 0,
+    "exploreUrl": "[\n\n\n{\"title\":\"观看排行榜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"所有時間\",\"url\":\"/hits/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"本月\",\"url\":\"/hits/month/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"本週\",\"url\":\"/hits/week/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"今天\",\"url\":\"/hits/day/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n\n\n\n\n\n{\"title\":\"排行榜(年月)\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"2501\",\"url\":\"/best/2025-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2502\",\"url\":\"/best/2025-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2503\",\"url\":\"/best/2025-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2504\",\"url\":\"/best/2025-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2401\",\"url\":\"/best/2024-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2402\",\"url\":\"/best/2024-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2403\",\"url\":\"/best/2024-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2404\",\"url\":\"/best/2024-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2405\",\"url\":\"/best/2024-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2406\",\"url\":\"/best/2024-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2407\",\"url\":\"/best/2024-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2408\",\"url\":\"/best/2024-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2409\",\"url\":\"/best/2024-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2410\",\"url\":\"/best/2024-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2411\",\"url\":\"/best/2024-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2412\",\"url\":\"/best/2024-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2301\",\"url\":\"/best/2023-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2302\",\"url\":\"/best/2023-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2303\",\"url\":\"/best/2023-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2304\",\"url\":\"/best/2023-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2305\",\"url\":\"/best/2023-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2306\",\"url\":\"/best/2023-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2307\",\"url\":\"/best/2023-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2308\",\"url\":\"/best/2023-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2309\",\"url\":\"/best/2023-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2310\",\"url\":\"/best/2023-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2311\",\"url\":\"/best/2023-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2312\",\"url\":\"/best/2023-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2201\",\"url\":\"/best/2022-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2202\",\"url\":\"/best/2022-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2203\",\"url\":\"/best/2022-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2204\",\"url\":\"/best/2022-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2205\",\"url\":\"/best/2022-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2206\",\"url\":\"/best/2022-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2207\",\"url\":\"/best/2022-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2208\",\"url\":\"/best/2022-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2209\",\"url\":\"/best/2022-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2210\",\"url\":\"/best/2022-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2211\",\"url\":\"/best/2022-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2212\",\"url\":\"/best/2022-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2101\",\"url\":\"/best/2021-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2102\",\"url\":\"/best/2021-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2103\",\"url\":\"/best/2021-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2104\",\"url\":\"/best/2021-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2105\",\"url\":\"/best/2021-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2106\",\"url\":\"/best/2021-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2107\",\"url\":\"/best/2021-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2108\",\"url\":\"/best/2021-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2109\",\"url\":\"/best/2021-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2110\",\"url\":\"/best/2021-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2111\",\"url\":\"/best/2021-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2112\",\"url\":\"/best/2021-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2001\",\"url\":\"/best/2020-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2002\",\"url\":\"/best/2020-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2003\",\"url\":\"/best/2020-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2004\",\"url\":\"/best/2020-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2005\",\"url\":\"/best/2020-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2006\",\"url\":\"/best/2020-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2007\",\"url\":\"/best/2020-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2008\",\"url\":\"/best/2020-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2009\",\"url\":\"/best/2020-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2010\",\"url\":\"/best/2020-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2011\",\"url\":\"/best/2020-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"2012\",\"url\":\"/best/2020-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1901\",\"url\":\"/best/2019-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1902\",\"url\":\"/best/2019-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1903\",\"url\":\"/best/2019-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1904\",\"url\":\"/best/2019-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1905\",\"url\":\"/best/2019-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1906\",\"url\":\"/best/2019-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1907\",\"url\":\"/best/2019-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1908\",\"url\":\"/best/2019-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1909\",\"url\":\"/best/2019-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1910\",\"url\":\"/best/2019-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1911\",\"url\":\"/best/2019-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1912\",\"url\":\"/best/2019-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1801\",\"url\":\"/best/2018-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1802\",\"url\":\"/best/2018-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1803\",\"url\":\"/best/2018-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1804\",\"url\":\"/best/2018-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1805\",\"url\":\"/best/2018-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1806\",\"url\":\"/best/2018-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1807\",\"url\":\"/best/2018-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1808\",\"url\":\"/best/2018-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1809\",\"url\":\"/best/2018-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1810\",\"url\":\"/best/2018-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1811\",\"url\":\"/best/2018-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1812\",\"url\":\"/best/2018-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1701\",\"url\":\"/best/2017-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1702\",\"url\":\"/best/2017-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1703\",\"url\":\"/best/2017-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1704\",\"url\":\"/best/2017-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1705\",\"url\":\"/best/2017-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1706\",\"url\":\"/best/2017-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1707\",\"url\":\"/best/2017-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1708\",\"url\":\"/best/2017-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1709\",\"url\":\"/best/2017-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1710\",\"url\":\"/best/2017-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1711\",\"url\":\"/best/2017-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1712\",\"url\":\"/best/2017-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1601\",\"url\":\"/best/2016-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1602\",\"url\":\"/best/2016-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1603\",\"url\":\"/best/2016-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1604\",\"url\":\"/best/2016-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1605\",\"url\":\"/best/2016-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1606\",\"url\":\"/best/2016-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1607\",\"url\":\"/best/2016-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1608\",\"url\":\"/best/2016-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1609\",\"url\":\"/best/2016-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1610\",\"url\":\"/best/2016-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1611\",\"url\":\"/best/2016-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1612\",\"url\":\"/best/2016-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1501\",\"url\":\"/best/2015-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1502\",\"url\":\"/best/2015-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1503\",\"url\":\"/best/2015-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1504\",\"url\":\"/best/2015-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1505\",\"url\":\"/best/2015-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1506\",\"url\":\"/best/2015-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1507\",\"url\":\"/best/2015-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1508\",\"url\":\"/best/2015-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1509\",\"url\":\"/best/2015-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1510\",\"url\":\"/best/2015-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1511\",\"url\":\"/best/2015-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1512\",\"url\":\"/best/2015-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1401\",\"url\":\"/best/2014-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1402\",\"url\":\"/best/2014-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1403\",\"url\":\"/best/2014-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1404\",\"url\":\"/best/2014-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1405\",\"url\":\"/best/2014-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1406\",\"url\":\"/best/2014-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1407\",\"url\":\"/best/2014-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1408\",\"url\":\"/best/2014-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1409\",\"url\":\"/best/2014-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1410\",\"url\":\"/best/2014-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1411\",\"url\":\"/best/2014-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1412\",\"url\":\"/best/2014-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1301\",\"url\":\"/best/2013-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1302\",\"url\":\"/best/2013-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1303\",\"url\":\"/best/2013-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1304\",\"url\":\"/best/2013-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1305\",\"url\":\"/best/2013-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1306\",\"url\":\"/best/2013-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1307\",\"url\":\"/best/2013-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1308\",\"url\":\"/best/2013-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1309\",\"url\":\"/best/2013-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1310\",\"url\":\"/best/2013-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1311\",\"url\":\"/best/2013-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1312\",\"url\":\"/best/2013-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1201\",\"url\":\"/best/2012-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1202\",\"url\":\"/best/2012-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1203\",\"url\":\"/best/2012-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1204\",\"url\":\"/best/2012-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1205\",\"url\":\"/best/2012-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1206\",\"url\":\"/best/2012-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1207\",\"url\":\"/best/2012-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1208\",\"url\":\"/best/2012-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1209\",\"url\":\"/best/2012-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1210\",\"url\":\"/best/2012-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1211\",\"url\":\"/best/2012-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1212\",\"url\":\"/best/2012-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1101\",\"url\":\"/best/2011-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1102\",\"url\":\"/best/2011-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1103\",\"url\":\"/best/2011-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1104\",\"url\":\"/best/2011-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1105\",\"url\":\"/best/2011-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1106\",\"url\":\"/best/2011-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1107\",\"url\":\"/best/2011-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1108\",\"url\":\"/best/2011-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1109\",\"url\":\"/best/2011-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1110\",\"url\":\"/best/2011-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1111\",\"url\":\"/best/2011-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1112\",\"url\":\"/best/2011-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1001\",\"url\":\"/best/2010-01/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1002\",\"url\":\"/best/2010-02/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1003\",\"url\":\"/best/2010-03/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1004\",\"url\":\"/best/2010-04/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1005\",\"url\":\"/best/2010-05/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1006\",\"url\":\"/best/2010-06/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1007\",\"url\":\"/best/2010-07/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1008\",\"url\":\"/best/2010-08/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1009\",\"url\":\"/best/2010-09/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1010\",\"url\":\"/best/2010-10/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1011\",\"url\":\"/best/2010-11/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"1012\",\"url\":\"/best/2010-12/{{page-1}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\n\n\n\n\n]",
+    "ruleExplore": {},
+    "searchUrl": "/search/{{key}}/{{page-1}}",
+    "ruleSearch": {
+      "bookList": "[class=\"mozaique cust-nb-cols\"]>div",
+      "name": "[class=\"thumb-under\"]@a.0@text@put:{\"t\":\"@@.thumb-under@a.0@text\"}",
+      "kind": "[class=\"right\"]@textNodes&&[class=\"video-hd\"]@textNodes",
+      "bookUrl": "[class=\"thumb-under\"]@a.0@href",
+      "coverUrl": "a.0@img@data-src",
+      "wordCount": "[class=\"metadata\"]@textNodes"
+    },
+    "ruleBookInfo": {
+      "intro": "&nbsp;\n📖 书名：{{@@[property=\"og:title\"]@content}}\n🕰🏷 信息：{{@@[class=\"clear-infobar\"]@[class=\"metadata\"]@text}}\n👍{{@@[id=\"video-votes\"]@a.-2@text}}\n👎{{@@[id=\"video-votes\"]@a.-1@text}}\n🔖 标签：{{@@[class=\"metadata-row video-tags\"]@a@text##\\n##-}}"
+    },
+    "ruleToc": {
+      "chapterList": "@js:[1]",
+      "chapterName": "@get:{t}"
+    },
+    "ruleContent": {
+      "content": "[type=\"application/ld+json\"]@all\n<js>\nresult=result;\nconst startIndex = result.indexOf('contentUrl');\nconst endIndex = result.indexOf('\"',startIndex+20);\nconst url = result.slice(startIndex+14, endIndex).replaceAll(\"\\\\\",\"\");\n//java.log(url)\n\nvar na=source.bookSourceComment;\nvar ra=java.base64Decode('QnnlsI/mlrAK6aaW5Y+R6K665Z2bOmh0dHBzOi8vc3JjYmJzLmNvbS8=');\nvar Toast=java.base64Decode('5q2j5Zyo5Yqg6L296KeG6aKRI+inhumikeWKoOi9vei+g+aFou+8jOivt+iAkOW/g+etieW+he+8jOivpea6kOWPr+WcqOa6kOekvuWMujpodHRwczovL3Rhb2JhLmNmL+iOt+WPlu+8jOivt+WLv+iiq+mqlw==');\n\nvar Tip=java.base64Decode('44CQ5Yi35paw5q2j5paH44CR5oiW44CQ54K55Ye756ug6IqC6ZO+5o6l44CR6Lez6L2s5pKt5pS+I+S4jeimgeebuOS/oeinhumikemHjOeahOS7u+S9leW5v+WRiiPwn5SX55u06ZO+Og==');\n\nvar Tip1=JSON.stringify(Tip);\n\nif(na.includes(ra)){\n       java.startBrowser(url,chapter.title);\njava.longToast(Toast);\nTip1+'\\n'+url;\n}\nelse{\tjava.base64Decode('6K+35LiN6KaB5L+u5pS55L2c6ICFLOivt+S4jeimgeebl+a6kA==');\n\t}\n\t\n</js>\n"
+    },
+    "tag": "Xnxx",
+    "searchRule": {
+      "bookList": "[class=\"mozaique cust-nb-cols\"]>div",
+      "name": "[class=\"thumb-under\"]@a.0@text@put:{\"t\":\"@@.thumb-under@a.0@text\"}",
+      "kind": "[class=\"right\"]@textNodes&&[class=\"video-hd\"]@textNodes",
+      "bookUrl": "[class=\"thumb-under\"]@a.0@href",
+      "coverUrl": "a.0@img@data-src",
+      "wordCount": "[class=\"metadata\"]@textNodes"
     },
     "exploreRule": {},
     "bookInfoRule": {
-      "name": "h2@text",
-      "author": "ul.list-unstyled@li.1@a@text",
-      "intro": "<br>{{@@section.m-t-20@a.tag@text##(^|[\\n])##🏷️}}\n{{'&lrm;'}}\n{{@@div.description@html}}",
-      "kind": "{{@@ul.list-unstyled@li.0@text##類型.\\s}},{{@@ul.list-unstyled@li.-2@text##更新日期.\\s}},{{@@.hidden-xs@div.display-3@text##$##分}}",
-      "lastChapter": "#chapterList@a.-1@p@text&&.list-unstyled@li.-2@text##更新日期.\\s",
-      "coverUrl": ".product-gallery@img@src",
-      "wordCount": "span#txt@text##\\D"
+      "intro": "&nbsp;\n📖 书名：{{@@[property=\"og:title\"]@content}}\n🕰🏷 信息：{{@@[class=\"clear-infobar\"]@[class=\"metadata\"]@text}}\n👍{{@@[id=\"video-votes\"]@a.-2@text}}\n👎{{@@[id=\"video-votes\"]@a.-1@text}}\n🔖 标签：{{@@[class=\"metadata-row video-tags\"]@a@text##\\n##-}}"
     },
-    "loginJs": "https://www.esjzone.zone/my/profile.html",
-    "key": "https://www.esjzone.one"
-  },
-  {
-    "bookSourceUrl": "https://www.qubook.org#",
-    "bookSourceName": "趣书网小说",
-    "bookSourceGroup": "备用",
-    "bookSourceType": 0,
-    "customOrder": 313,
-    "enabled": true,
-    "enabledExplore": true,
-    "enabledCookieJar": false,
-    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\"}",
-    "bookSourceComment": "",
-    "lastUpdateTime": 1716234864287,
-    "respondTime": 2090,
-    "weight": 0,
-    "exploreUrl": "[{\"title\":\"🏅 热门排行 🏅\",\"url\":\"/images/rph.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"🎖 书荒推荐 🎖\",\"url\":\"/images/sph.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},{\"title\":\"💜 纯爱 💜\",\"url\":\"/bookbl/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"现耽\",\"url\":\"/BookList/blxd/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古耽\",\"url\":\"/BookList/blgd/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"/BookList/blcy/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/BookList/blxh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"ＢＬ\",\"url\":\"/BookList/bltr/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"ＧＬ\",\"url\":\"/BookList/blbh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"❤️ 女生 ❤️\",\"url\":\"/booknv/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"现言\",\"url\":\"/BookList/nvds/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古言\",\"url\":\"/BookList/nvgd/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"重生\",\"url\":\"/BookList/nvcy/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"/BookList/nvxh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人\",\"url\":\"/BookList/nvqc/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游\",\"url\":\"/BookList/nvwy/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"💙 男生 💙\",\"url\":\"/bookna/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"/BookList/naxh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠\",\"url\":\"/BookList/nawx/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"/BookList/nads/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史\",\"url\":\"/BookList/najs/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑\",\"url\":\"/BookList/nakb/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻\",\"url\":\"/BookList/nakh/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
-    "ruleExplore": {
-      "bookList": ".man_first ul li",
-      "name": "h1@text||a@text##\\(.*\\)",
-      "author": "h1@text||a@text##.*\\(|\\).*",
-      "intro": "p@text##简介：",
-      "kind": "h3@text&&h4@text##/文|\\[|\\]",
-      "lastChapter": "",
-      "bookUrl": "h1@a@href||a@href",
-      "wordCount": ""
-    },
-    "searchUrl": "/e/search/index.php,{\n\t\"method\":\"POST\",\n\"body\":\"show=title,newstext&btzz=b&keyboard={{key}}\"\n}",
-    "ruleSearch": {
-      "bookList": "//div[@class=\"morelist\"]/ul/li",
-      "name": "a.1@text##——BY：.*|\\(.*\\)",
-      "author": "a.1@text##.*——BY：|\\)|.*\\(",
-      "kind": "a.0@text",
-      "bookUrl": "a.1@href",
-      "wordCount": ""
-    },
-    "ruleBookInfo": {
-      "init": "",
-      "name": "h1@text##\\(.*\\)",
-      "author": "h1@text##.*\\(|\\).*",
-      "intro": "[name=description]@content##.*简介：",
-      "kind": ".listcd@textNodes&&.mlist li.-1@text##全文免费阅读|入库：|>|\\s",
-      "lastChapter": "",
-      "wordCount": ""
-    },
-    "ruleToc": {
-      "preUpdateJs": "",
-      "chapterList": "+<js>\nvar n=result.match(/<b>1<\\/b>\\/<b>(\\d+)<\\/b>/)[1];\n\nvar list=[{text:'第1页',href:baseUrl}];\n\nfor(var i=2;i<=n;i++){\nlist.push({text:'第'+i+'页',href:baseUrl.replace(/\\.html/,'_'+i+'.html')});\n\n}\nlist\n</js>",
-      "chapterName": "text",
-      "chapterUrl": "href"
-    },
-    "ruleContent": {
-      "content": "class.conten@html"
-    },
-    "searchRule": {
-      "bookList": "//div[@class=\"morelist\"]/ul/li",
-      "name": "a.1@text##——BY：.*|\\(.*\\)",
-      "author": "a.1@text##.*——BY：|\\)|.*\\(",
-      "kind": "a.0@text",
-      "bookUrl": "a.1@href",
-      "wordCount": ""
-    },
-    "tag": "趣书网小说",
     "tocRule": {
-      "preUpdateJs": "",
-      "chapterList": "+<js>\nvar n=result.match(/<b>1<\\/b>\\/<b>(\\d+)<\\/b>/)[1];\n\nvar list=[{text:'第1页',href:baseUrl}];\n\nfor(var i=2;i<=n;i++){\nlist.push({text:'第'+i+'页',href:baseUrl.replace(/\\.html/,'_'+i+'.html')});\n\n}\nlist\n</js>",
-      "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterList": "@js:[1]",
+      "chapterName": "@get:{t}"
     },
     "contentRule": {
-      "content": "class.conten@html"
+      "content": "[type=\"application/ld+json\"]@all\n<js>\nresult=result;\nconst startIndex = result.indexOf('contentUrl');\nconst endIndex = result.indexOf('\"',startIndex+20);\nconst url = result.slice(startIndex+14, endIndex).replaceAll(\"\\\\\",\"\");\n//java.log(url)\n\nvar na=source.bookSourceComment;\nvar ra=java.base64Decode('QnnlsI/mlrAK6aaW5Y+R6K665Z2bOmh0dHBzOi8vc3JjYmJzLmNvbS8=');\nvar Toast=java.base64Decode('5q2j5Zyo5Yqg6L296KeG6aKRI+inhumikeWKoOi9vei+g+aFou+8jOivt+iAkOW/g+etieW+he+8jOivpea6kOWPr+WcqOa6kOekvuWMujpodHRwczovL3Rhb2JhLmNmL+iOt+WPlu+8jOivt+WLv+iiq+mqlw==');\n\nvar Tip=java.base64Decode('44CQ5Yi35paw5q2j5paH44CR5oiW44CQ54K55Ye756ug6IqC6ZO+5o6l44CR6Lez6L2s5pKt5pS+I+S4jeimgeebuOS/oeinhumikemHjOeahOS7u+S9leW5v+WRiiPwn5SX55u06ZO+Og==');\n\nvar Tip1=JSON.stringify(Tip);\n\nif(na.includes(ra)){\n       java.startBrowser(url,chapter.title);\njava.longToast(Toast);\nTip1+'\\n'+url;\n}\nelse{\tjava.base64Decode('6K+35LiN6KaB5L+u5pS55L2c6ICFLOivt+S4jeimgeebl+a6kA==');\n\t}\n\t\n</js>\n"
     },
-    "exploreRule": {
-      "bookList": ".man_first ul li",
-      "name": "h1@text||a@text##\\(.*\\)",
-      "author": "h1@text||a@text##.*\\(|\\).*",
-      "intro": "p@text##简介：",
-      "kind": "h3@text&&h4@text##/文|\\[|\\]",
-      "lastChapter": "",
-      "bookUrl": "h1@a@href||a@href",
-      "wordCount": ""
-    },
-    "bookInfoRule": {
-      "init": "",
-      "name": "h1@text##\\(.*\\)",
-      "author": "h1@text##.*\\(|\\).*",
-      "intro": "[name=description]@content##.*简介：",
-      "kind": ".listcd@textNodes&&.mlist li.-1@text##全文免费阅读|入库：|>|\\s",
-      "lastChapter": "",
-      "wordCount": ""
-    },
-    "key": "https://www.qubook.org#"
-  },
-  {
-    "bookSourceUrl": "https://qubook.org",
-    "bookSourceName": "趣书小说",
-    "bookSourceGroup": "备用",
-    "bookSourceType": 0,
-    "customOrder": 3785,
-    "enabled": true,
-    "enabledExplore": true,
-    "enabledCookieJar": false,
-    "header": "{\n    \"User-Agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1\",\n   \n\t   \"Referer\":\"${sourceUrl}\"\n\n}",
-    "bookSourceComment": "",
-    "lastUpdateTime": 1720956444719,
-    "respondTime": 2935,
-    "weight": 0,
-    "exploreUrl": "[\n{\"title\":\"🔖纯爱耿美🔖\",\"url\":\"/bookbl/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"现代耿美\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=19\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代架空\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=17\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=15\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻网游\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"BL同人\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=49\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"GL百合\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=9\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n\n{\"title\":\"🔖女生小说🔖\",\"url\":\"/booknv/<,index_{{page-1}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"都市言情\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=14\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代言情\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=16\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=15\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻仙侠\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=59\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青春同人\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=11\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游科幻\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=67\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n\n{\"title\":\"🔖男生小说🔖\",\"url\":\"/bookna/<,index_{{page}}.html>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n\n{\"title\":\"玄幻奇幻\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=77\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市重生\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=24\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=87\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖推理\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=7356\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻网游\",\"url\":\"/e/search/result/<?,index.php?page={{page-1}}>&searchid=86\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n\n\n{\"title\":\"🔖热门榜单🔖\",\"url\":\"/images/rph.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}\n]",
-    "ruleExplore": {
-      "bookList": ".man_first li||.morelist li",
-      "name": "h1@text||a.1@text||a@text##\\(.*\\)",
-      "author": "h1@text||a.1@text##.*\\(|\\)",
-      "intro": "p@text",
-      "kind": "h3@text||a.0@text",
-      "bookUrl": "h1 a.0@href||a.1@href||a@href",
-      "wordCount": ""
-    },
-    "searchUrl": "@js:\nburl = source.getKey().match(/([^#]*)/)[1];\nurl = burl+\"/e/search/\";\nbody = \"show=title%2Cnewstext&keyboard=\"+key;\n$ = java.post(url+\"index.php\",body,{}).headers();\nuri = $.Location||$.location;\nurl+=String(uri).replace('?','<?,index.php?page={{page-1}}&>');",
-    "ruleSearch": {
-      "bookList": ".morelist li",
-      "name": "a.1@text##\\(.*\\)",
-      "author": "a.1@text##.*\\(|\\)",
-      "kind": "a.0@text",
-      "bookUrl": "a.1@href"
-    },
-    "ruleBookInfo": {
-      "name": "h1@text##\\(.*\\)",
-      "author": ".mlist li.1@textNodes",
-      "intro": ".conten@html##第*.章[\\w\\W]+(.)",
-      "kind": "{{@@.listcd@textNodes##\\> |\\ > .*}}\n{{@@.mlist li.0:2@textNodes}}",
-      "lastChapter": "",
-      "coverUrl": "",
-      "wordCount": ""
-    },
-    "ruleToc": {
-      "preUpdateJs": "",
-      "chapterList": "@js:\npage=result.match(/<b>(\\d*)<\\/b>\\/<b>(\\d+)<\\/b>/)[2];\n//java.log(page)\nlist=[];\nlist.push({text:'第1页',href:baseUrl});\nif(page>=2){\nfor(var i=2;i<=page;i++){\nhref1=baseUrl.replace(/.html/,'')+'_'+i+'.html';\nlist.push({text:'第'+i+'页',href:href1});\n}\n}\nlist",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "nextTocUrl": ""
-    },
-    "ruleContent": {
-      "content": ".conten@html",
-      "sourceRegex": "",
-      "replaceRegex": ""
-    },
-    "searchRule": {
-      "bookList": ".morelist li",
-      "name": "a.1@text##\\(.*\\)",
-      "author": "a.1@text##.*\\(|\\)",
-      "kind": "a.0@text",
-      "bookUrl": "a.1@href"
-    },
-    "tag": "趣书小说",
-    "tocRule": {
-      "preUpdateJs": "",
-      "chapterList": "@js:\npage=result.match(/<b>(\\d*)<\\/b>\\/<b>(\\d+)<\\/b>/)[2];\n//java.log(page)\nlist=[];\nlist.push({text:'第1页',href:baseUrl});\nif(page>=2){\nfor(var i=2;i<=page;i++){\nhref1=baseUrl.replace(/.html/,'')+'_'+i+'.html';\nlist.push({text:'第'+i+'页',href:href1});\n}\n}\nlist",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "nextTocUrl": ""
-    },
-    "contentRule": {
-      "content": ".conten@html",
-      "sourceRegex": "",
-      "replaceRegex": ""
-    },
-    "exploreRule": {
-      "bookList": ".man_first li||.morelist li",
-      "name": "h1@text||a.1@text||a@text##\\(.*\\)",
-      "author": "h1@text||a.1@text##.*\\(|\\)",
-      "intro": "p@text",
-      "kind": "h3@text||a.0@text",
-      "bookUrl": "h1 a.0@href||a.1@href||a@href",
-      "wordCount": ""
-    },
-    "bookInfoRule": {
-      "name": "h1@text##\\(.*\\)",
-      "author": ".mlist li.1@textNodes",
-      "intro": ".conten@html##第*.章[\\w\\W]+(.)",
-      "kind": "{{@@.listcd@textNodes##\\> |\\ > .*}}\n{{@@.mlist li.0:2@textNodes}}",
-      "lastChapter": "",
-      "coverUrl": "",
-      "wordCount": ""
-    },
-    "key": "https://qubook.org"
+    "key": "https://www.xnxx.com/"
   }
 ]
