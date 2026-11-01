@@ -1,16 +1,19 @@
 {
-  "timestamp": "2026-10-25T07:09:02.704552",
-  "total": 185,
-  "valid": 179,
-  "invalid": 6,
+  "timestamp": "2026-11-01T08:30:25.260302",
+  "total": 179,
+  "valid": 170,
+  "invalid": 9,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://android-api.xrzww.com/": "Server disconnected",
-    "https://afdian.com": "HTTP 521",
-    "https://m.roushuwu.com/": "Cannot connect to host m.roushuwu.com:443 ssl:defa",
-    "https://www.shenhuazhihou.com": "Server disconnected",
-    "https://www.qbtr.me/": "Server disconnected",
-    "https://www.xnxx.com/": "HTTP 500"
+    "https://fapi.fanxxs.com": "HTTP 405",
+    "http://www.fbook.net": "HTTP 404",
+    "http://app.wanshu.com#🎃": "超时",
+    "https://www.ibus233.com/": "超时",
+    "http://app.wanshu.com:80#🎃": "超时",
+    "https://api.wanshu.com\n": "超时",
+    "https://api.wanshu.com#🎃": "超时",
+    "https://www.wxzpyd.com/": "超时",
+    "http://app.wanshu.com:": "超时"
   }
 }
