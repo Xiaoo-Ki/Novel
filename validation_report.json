@@ -1,19 +1,13 @@
 {
-  "timestamp": "2026-11-01T08:30:25.260302",
-  "total": 179,
-  "valid": 170,
-  "invalid": 9,
+  "timestamp": "2026-11-08T08:24:44.732536",
+  "total": 170,
+  "valid": 167,
+  "invalid": 3,
   "sample": null,
   "timeout": 10,
   "errors": {
-    "https://fapi.fanxxs.com": "HTTP 405",
-    "http://www.fbook.net": "HTTP 404",
-    "http://app.wanshu.com#🎃": "超时",
-    "https://www.ibus233.com/": "超时",
-    "http://app.wanshu.com:80#🎃": "超时",
-    "https://api.wanshu.com\n": "超时",
-    "https://api.wanshu.com#🎃": "超时",
-    "https://www.wxzpyd.com/": "超时",
-    "http://app.wanshu.com:": "超时"
+    "http://m.cpxpsp.com.cn": "HTTP 456",
+    "http://www.shukuge.com": "超时",
+    "https://dushu.baidu.com/": "超时"
   }
 }
